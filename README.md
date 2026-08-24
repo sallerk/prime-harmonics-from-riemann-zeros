@@ -50,3 +50,7 @@ Zero ordinates: Andrew Odlyzko, *Tables of zeros of the Riemann zeta function*, 
 ## Version
 
 **v1.0** — initial release: 1,000,000-zero dataset, forward/backward stepping, adjustable speed, user-defined x-axis with a 1.5 floor, 50-division gridlines.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

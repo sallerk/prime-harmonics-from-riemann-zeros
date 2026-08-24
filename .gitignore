@@ -1,0 +1,18 @@
+# Build artifacts (from the C++ zeta-zero exploration scripts)
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# Generated plot/data outputs
+*.bmp
+*.csv
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Editor/IDE
+.vs/
+*.suo
+*.user
