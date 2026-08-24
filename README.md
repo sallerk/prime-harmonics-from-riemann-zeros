@@ -35,14 +35,6 @@ Keep `prime_harmonics_from_riemann_zeros_v1.0.html` and `riemann_zeros_data.js` 
 - **x-axis min/max + Apply range** — change the window of s being plotted; the curve is recomputed from scratch for the new range.
 - **↺** — reset back to zero terms summed.
 
-## Background
-
-This tool grew out of a conversation exploring an old MATLAB plot (`f = f + cos(log(s)*theta(i))`, found among files in this folder) that empirically demonstrates Riemann's explicit formula. The original generating script was never recovered; this project independently reconstructs the underlying mathematics (Riemann–Siegel Z-function root-finding for computed zeros, then later swapped for Odlyzko's published tables for accuracy and scale) and builds an interactive explorer around it, rather than a static replica of the original plots.
-
-Related files elsewhere in this folder (not part of this tool):
-- `zeta_theta_spectrum.cpp` / `zero_skip_demo.cpp` — earlier C++ explorations computing zeta zeros from scratch via the Riemann–Siegel formula, including a "jump-ahead" zero-index estimator and a segmented sieve for locating primes near very large numbers.
-- `Riemann-Siegel formula.py` — an unrelated earlier script plotting |ζ(1/2+it)| and the Riemann–Siegel Z-function.
-
 ## Data source
 
 Zero ordinates: Andrew Odlyzko, *Tables of zeros of the Riemann zeta function*, https://www-users.cse.umn.edu/~odlyzko/zeta_tables/ (table `zeros6`, first 1,000,000 of 2,001,052 zeros, values rounded to 6 decimal places for this build).
