@@ -1,6 +1,8 @@
 # Prime Harmonics from Riemann Zeros
 
-An interactive, single-file HTML visualization of Riemann's explicit formula in action: step forward or backward through real, published nontrivial Riemann zeta zeros and watch the partial sum
+![Screenshot of the tool showing resonant spikes at the primes 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, and 37](screenshot.png)
+
+An interactive HTML visualization of Riemann's explicit formula in action: step forward or backward through real, published nontrivial Riemann zeta zeros and watch the partial sum
 
 ```
 f(s) = Σ cos(γᵢ · log s)
