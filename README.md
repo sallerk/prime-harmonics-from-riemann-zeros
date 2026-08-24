@@ -1,4 +1,4 @@
-# Zeta Zero Scope
+# Prime Harmonics from Riemann Zeros
 
 An interactive, single-file HTML visualization of Riemann's explicit formula in action: step forward or backward through real, published nontrivial Riemann zeta zeros and watch the partial sum
 
@@ -24,7 +24,7 @@ Each nontrivial zeta zero ρᵢ = 1/2 + iγᵢ contributes one cosine wave of fr
 
 ## Usage
 
-Open `zeta_zero_scope_v1.0.html` directly in any modern browser (double-click it, or `file://` it, or serve it from any static file server) — no build step, no server required.
+Open `prime_harmonics_from_riemann_zeros_v1.0.html` directly in any modern browser (double-click it, or `file://` it, or serve it from any static file server) — no build step, no server required.
 
 - **▶ Play / ❚❚ Pause** — start/stop stepping through the zero list.
 - **◀| / |▶** — step one zero backward / forward manually.
