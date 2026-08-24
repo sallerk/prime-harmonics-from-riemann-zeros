@@ -20,11 +20,11 @@ Each nontrivial zeta zero ρᵢ = 1/2 + iγᵢ contributes one cosine wave of fr
 - **User-defined x-axis range** (s-min / s-max; minimum is floored at 1.5), with an auto-scaling y-axis.
 - **Jump-to-index** control to skip directly to any zero in the list.
 - Live readouts: current zero index, the γ value just added, current f-range, and playback status.
-- Fully self-contained — all 1,000,000 zero values, CSS, and JavaScript are embedded in the single HTML file. The only external network dependency is the Google Fonts stylesheet (IBM Plex Sans/Mono); everything else, including the plotting and all interaction logic, works fully offline with a system-font fallback.
+- CSS and all interaction/plotting logic are inline in the HTML file; the 1,000,000 zero values live in a separate data file (`riemann_zeros_data.js`, ~13 MB) that the page loads via a plain `<script src>` tag. The only external network dependency is the Google Fonts stylesheet (IBM Plex Sans/Mono); the zero data and all logic work fully offline with a system-font fallback.
 
 ## Usage
 
-Open `prime_harmonics_from_riemann_zeros_v1.0.html` directly in any modern browser (double-click it, or `file://` it, or serve it from any static file server) — no build step, no server required.
+Keep `prime_harmonics_from_riemann_zeros_v1.0.html` and `riemann_zeros_data.js` in the same folder, then open the `.html` file directly in any modern browser (double-click it, `file://` it, or serve both from any static file server) — no build step, no server required. The HTML file won't render the trace correctly without `riemann_zeros_data.js` sitting alongside it.
 
 - **▶ Play / ❚❚ Pause** — start/stop stepping through the zero list.
 - **◀| / |▶** — step one zero backward / forward manually.
